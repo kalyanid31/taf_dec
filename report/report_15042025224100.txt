@@ -1,0 +1,30 @@
+count check: FAIL
+Details: Count is not matching between source and target. source count12 and target count is 11
+
+Records Only in Target: FAIL
+Details: Count: 1, Sample Failed Records: [{'Identifier': 10}]
+
+Records Only in Source: FAIL
+Details: Count: 2, Sample Failed Records: [{'Identifier': 11}, {'Identifier': 11}]
+
+count check: FAIL
+Details: Count is not matching between source and target. source count12 and target count is 11
+
+Records Only in Target: FAIL
+Details: Count: 1, Sample Failed Records: [{'Identifier': 10}]
+
+Records Only in Source: FAIL
+Details: Count: 2, Sample Failed Records: [{'Identifier': 11}, {'Identifier': 11}]
+
+Duplicate Check: FAIL
+Details: Duplicate Count: 1, Sample Failed Records: [{'Identifier': 10, 'count': 2}]
+
+Uniqueness Check: FAIL
+Details: Duplicate counts per column: {'Identifier': 1}
+
+Records Only in Source: FAIL
+Details: Count: 2, Sample Failed Records: [{'Identifier': 11}, {'Identifier': 11}]
+
+Records Only in Target: FAIL
+Details: Count: 1, Sample Failed Records: [{'Identifier': 10}]
+

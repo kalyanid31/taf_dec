@@ -1,0 +1,30 @@
+Uniqueness Check: FAIL
+Details: Duplicate counts per column: {'Identifier': 1, 'Surname': 3, 'given_name': 1}
+
+Duplicate Check: FAIL
+Details: Duplicate Count: 1, Sample Failed Records: [{'Identifier': 11, 'Surname': 'Arun', 'given_name': 'LK', 'count': 2}]
+
+count check: PASS
+Details: Count is matching between source and target. source count12 and target count is 12
+
+Records Only in Target: PASS
+Details: No extra records found in target.
+
+Records Only in Source: PASS
+Details: No extra records found in source.
+
+Duplicate Check: FAIL
+Details: Duplicate Count: 1, Sample Failed Records: [{'Identifier': 11, 'count': 2}]
+
+Uniqueness Check: FAIL
+Details: Duplicate counts per column: {'Identifier': 1}
+
+Records Only in Source: PASS
+Details: No extra records found in source.
+
+Records Only in Target: PASS
+Details: No extra records found in target.
+
+data compare Check: PASS
+Details: No mismatches found
+

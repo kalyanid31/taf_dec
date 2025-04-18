@@ -1,0 +1,9 @@
+Duplicate Check: FAIL
+Details: Duplicate Count: 1, Sample Failed Records: [{'Identifier': 11, 'count': 2}]
+
+Uniqueness Check: FAIL
+Details: Duplicate counts per column: {'Identifier': 1, 'Surname': 3, 'given_name': 1}
+
+Duplicate Check: FAIL
+Details: Duplicate Count: 1, Sample Failed Records: [{'Identifier': 11, 'Surname': 'Arun', 'given_name': 'LK', 'count': 2}]
+
